@@ -1,0 +1,21 @@
+git add . => stage e ekler
+
+git commit -m "message" => commitler
+
+git branch => mevcut branchleri listeler
+
+git branch -D _branchismi => branch siler
+
+git checkout -b branchismi => branch oluşturup o branche geçer
+
+git checkout branchismi => branche geçer
+
+git pull origin branchadı => uzaktaki kodu çeker
+
+git push origin branchadı => uzaktaki koda gönderir
+
+git merge branchismi (not: kaynak branch'te olmalısın)
+
+git remote add origin (link) => uzaktaki oluşturulmuş repositörün adresini ekler
+
+git remote -v => eklenmiş adreslerin listesi
