@@ -41,8 +41,11 @@
 
 		<h5>Buton Aktif ve Pasif Özellikleri</h5>
 
+    <br>
+
 		<p><button class="btn btn-primary btn-lg active">Udemy Bootstrap 4 Kursu</button> </p>
 		<p><button class="btn btn-primary btn-sm disabled">Udemy Bootstrap 4 Kursu</button> </p>
+    
   </div>
 </template>
 
