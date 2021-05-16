@@ -1,64 +1,79 @@
 <template>
   <div class="container">
-    <div class="btn-group" role="group" aria-label="butonlarımız">
-      <button class="btn btn-secondary">Udemy Bootstrap 4 Kursu</button>
-      <button class="btn btn-secondary">Udemy wegrwge 4 Kursu</button>
-      <button class="btn btn-secondary">Udemy Bootssgdgsdtrap 4 Kursu</button>
-    </div>
-
-    <br>
-    <br>
-
-    <div class="btn-toolbar" role="toolbar" aria-label="butonlarımız">
-
-      <div class="btn-group mr-2" role="group" aria-label="butonlarımız">
-        <button class="btn btn-primary">1</button>
-        <button class="btn btn-primary">2</button>
-        <button class="btn btn-primary">3</button>
-        <button class="btn btn-primary">4</button>
+    
+    <div class="card" style="width: 350px;">
+    <img class="card-img-top" src="./img/card1.jpg">
+      <div class="card-body">
+        <h4 class="card-title">ana başlık</h4>
+        <p class="card-text">gsdökglşiksd,gişlskdfşgisdflkasidşlfsişadflşsidfsfds</p>
+        <a href="#" class="btn btn-success">devamke</a>
       </div>
-
-      <div class="btn-group mr-2" role="group" aria-label="butonlarımız">
-        <button class="btn btn-primary">5</button>
-        <button class="btn btn-primary">6</button>
-        <button class="btn btn-primary">7</button>
-      </div>
-
     </div>
-    <br>
-
-    <div class="dropdown">
-        <button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Dropdown button
-        </button>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
+<br>
+<br>
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-body">
+          <h4 class="card-title">kartvizitim</h4>
+          <h6 class="card-subtitle text-muted"></h6>
+          <p>bootstrap öğreniyorum yeeeey</p>
+          <a href="#" class="card-link">bilgilerim </a>
+          <a href="#" class="card-link">bana ulaşma </a>
+          <ul class="list-group list-group-flush my-4">
+            <li class="list-group-item">ileri seviye dolandırıcılık</li>
+            <li class="list-group-item">ileri seviye dolandırıcılık</li>
+            <li class="list-group-item">ileri seviye dolandırıcılık</li>
+          </ul>
         </div>
+      </div>
     </div>
-
     <br>
     <br>
-
-    <h1>asgfasdfasdf <span class="badge badge-primary"> fasfdagsdfgssfadsfa</span></h1>
-    <!-- bootstrap te bir sıkıntı var linklerde -->
-
-    <div class="alert alert-primary">kaydınız başarılı <a href="#" class="alert-link">giriş yapınız</a></div>
-    <br>
-
-    <div class="jumbotron">
-      <h1 class="display-3">Başlık fasfa</h1>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque aspernatur fuga except</p>
-      <br>
-      <p class="lead">deneme ksflaksfşlajfalşfkalsf</p>
-      <!-- lead de bozuk -->
-      <br>
-      <a href="#" class="btn btn-success btn-lg">kayıt ol</a>
-      
+    <div class="card">
+      <div class="card-header">kart özellikleri</div>
+      <div class="card-body">
+        <h4 class="card-title">wep programlama</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur elit modi aspernatur necessitatibus ad mole</p>
+      </div>
     </div>
-
     <br>
+    <br>
+    <div class="card">
+      <div class="card-header">kart özellikleri</div>
+      <div class="card-body">
+        <blockquote class="blockquote">
+          <p>giakşlkfgşlsadkgşlaskdgşlkaslişkgslşkigasdklşaisgklşaigkşligslşkigs</p>
+          <footer class="blockquote">gökay kahraman tarafından söylendi tarzı bi yazı</footer>
+        </blockquote>
+      </div>
+    </div>
+    <br>
+    <br>
+    <div class="card bg-info text-white border-danger">
+      <div class="card-header">başlık</div>
+      <div class="card-body">
+        <h4>kart stilleri</h4>
+        <p class="card-text">gşnçlkasjdnglşkajsdfglkhjnaedloghnjwoılregjn agıjdgoıw ejrgoıaw</p>
+      </div>
+    </div>
+<br>
+<br>
+    <div class="card-group" style="width: 350px;">
+      <div class="card">
+        <img src="./img/card1.jpg" class="card-img-top">
+        <div class="card-body">
+          <h4 class="card-title">kurs başlığı</h4>
+          <p class="card-text">lorem flana fasfşlasfna</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./img/card1.jpg" class="card-img-top">
+        <div class="card-body">
+          <h4 class="card-title">kurs başlığı</h4>
+          <p class="card-text">lorem flana fasfşlasfna</p>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
