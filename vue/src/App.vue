@@ -1,20 +1,38 @@
 <template>
   <div class="container">
-    <div class="input-group">
-      <span class="input-group-addon">baş</span>
-      <input type="text" class="form-control">
-      <span class="input-group-addon">son</span>
-    </div>
-    <br>
-    <br>
-    <div class="input-group">
-      <span class="input-group-addon">baş</span>
-      <span class="input-group-addon"><input type="checkbox"></span>
-      <span class="input-group-addon"><input type="radio"></span>
-      <span class="input-group-btn"><button class="btn btn-secondary">buton</button></span>
-      <input type="text" class="form-control">
-      <span class="input-group-addon">son</span>
-    </div>
+    <form>
+      
+      <div class="form-row">
+        <div class="col-md-4">
+          <label class="col-form-label">dhffhd</label>
+          <input type="text" class="form-control" name="">
+        </div>
+
+        <div class="col-md-4">
+           <label class="col-form-label">sfgdgfsdsdgf</label>
+          <input type="text" class="form-control" name="">
+        </div>
+
+        <div class="col-md-4">
+           <label class="col-form-label">gfsdgfds gsfdgfds </label>
+          <input type="text" class="form-control" name="">
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="col-md-12">
+           <label class="col-form-label">sgdfgdsf gsfdfgds</label>
+          <input type="text" class="form-control" name="">
+        </div>
+        
+      </div>
+      <div class="form-row">
+        <div class="col-md-12">
+           <label class="col-form-label">fdgsfsgd gfdsdfsg</label>
+         <textarea class="form-control" rows="6"></textarea>
+        </div>
+        
+      </div>
+    </form>
   </div>
 </template>
 
