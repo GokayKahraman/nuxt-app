@@ -1,94 +1,234 @@
 <template>
   <div class="container">
-    <div class="form-group">
-				<input type="text" class="form-control" name="">
-			</div>
-			<div class="form-group">
-				<input type="email" class="form-control" name="">
-			</div>
-			<div class="form-group">
-				<select class="form-control">
-					<option>Kurs 1</option>
-					<option>Kurs 1</option>
-					<option>Kurs 1</option>
-					<option>Kurs 1</option>
-				</select>
-			</div>
+    <ul class="nav">
 
-			<div class="form-group">
-				<select multiple="" class="form-control">
-					<option>Kurs 1</option>
-					<option>Kurs 1</option>
-					<option>Kurs 1</option>
-					<option>Kurs 1</option>
-					<option>Kurs 1</option>
-					<option>Kurs 1</option>
-					<option>Kurs 1</option>
-				</select>
-			</div>
+      <li class="nav-item">
+        <a href="#" class="nav-link">deneme</a>
+      </li>
 
-			<div class="form-group">
-				<textarea class="form-control" rows="10"></textarea>
+      <li class="nav-item">
+        <a href="#" class="nav-link active">deneme</a>
+      </li>
 
-			</div>
+      <li class="nav-item">
+        <a href="#" class="nav-link">deneme</a>
+      </li>
 
-			<div class="form-group">
-				<input type="file" name="">
-				
-			</div>
+      <li class="nav-item">
+        <a href="#" class="nav-link disabled">deneme</a>
+      </li>
+    </ul>
 
-			<div class="form-group">
-				<input type="text" readonly class="form-control" value="Bu giriş kapalıdır" name="">
-				<input type="text" readonly class="form-control-plaintext" value="Bu giriş kapalıdır" name="">
-				<input type="text" disabled class="form-control" value="Bu giriş kapalıdır" name="">
+    <hr>
 
-			</div>
+    <h4>Basit Yatay Menü - Ortalama</h4>
 
-			<div class="form-check form-check-inline">
-				<label class="form-check-label">
-					<input type="checkbox" class="form-check-input" name=""> Elma</label>
-			</div>
-			<div class="form-check form-check-inline">
-				<label class="form-check-label">
-				<input type="checkbox" class="form-check-input" name=""> Armut</label>
-			</div>
-			<div class="form-check form-check-inline">
-				<label class="form-check-label">
-				<input type="checkbox" class="form-check-input" name=""> Üzüm</label>
-			</div>
-    <form>
-      
-      <div class="form-row">
-        <div class="col-md-4">
-          <label class="col-form-label">dhffhd</label>
-          <input type="text" class="form-control" name="">
-        </div>
+    
+    <ul class="nav justify-content-center">
 
-        <div class="col-md-4">
-           <label class="col-form-label">sfgdgfsdsdgf</label>
-          <input type="text" class="form-control" name="">
-        </div>
+      <li class="nav-item">
+        <a href="#" class="nav-link">deneme</a>
+      </li>
 
-        <div class="col-md-4">
-           <label class="col-form-label">gfsdgfds gsfdgfds </label>
-          <input type="text" class="form-control" name="">
-        </div>
-      </div>
-      <div class="form-row">
-        <div class="col-md-12">
-           <label class="col-form-label">sgdfgdsf gsfdfgds</label>
-          <input type="text" class="form-control" name="">
-        </div>
-        
-      </div>
-      <div class="form-row">
-        <div class="col-md-12">
-           <label class="col-form-label">fdgsfsgd gfdsdfsg</label>
-         <textarea class="form-control" rows="6"></textarea>
-        </div>
-        
-      </div>
-    </form>
+      <li class="nav-item">
+        <a href="#" class="nav-link active">deneme</a>
+      </li>
+
+      <li class="nav-item">
+        <a href="#" class="nav-link">deneme</a>
+      </li>
+
+      <li class="nav-item">
+        <a href="#" class="nav-link disabled">deneme </a>
+      </li>
+    </ul>
+
+    <hr>
+
+    <h4>Basit Yatay Menü - Sağa Yaslama</h4>
+
+    
+    <ul class="nav justify-content-end">
+
+      <li class="nav-item">
+        <a href="#" class="nav-link">deneme</a>
+      </li>
+
+      <li class="nav-item">
+        <a href="#" class="nav-link active">deneme</a>
+      </li>
+
+      <li class="nav-item">
+        <a href="#" class="nav-link">deneme</a>
+      </li>
+
+      <li class="nav-item">
+        <a href="#" class="nav-link disabled">deneme</a>
+      </li>
+    </ul>
+
+    <hr>
+
+    <h4>Basit Dikey Menü </h4>
+
+    
+    <ul class="nav flex-column">
+
+      <li class="nav-item">
+        <a href="#" class="nav-link">deneme</a>
+      </li>
+
+      <li class="nav-item">
+        <a href="#" class="nav-link active">deneme</a>
+      </li>
+
+      <li class="nav-item">
+        <a href="#" class="nav-link">deneme</a>
+      </li>
+
+      <li class="nav-item">
+        <a href="#" class="nav-link disabled">deneme</a>
+      </li>
+    </ul>
+
+
+    <hr>
+
+    <h4>Tab Menü </h4>
+    <br>
+
+    
+    <ul class="nav nav-tabs">
+
+      <li class="nav-item">
+        <a href="#" class="nav-link active">deneme</a>
+      </li>
+
+      <li class="nav-item">
+        <a href="#" class="nav-link ">deneme</a>
+      </li>
+
+      <li class="nav-item">
+        <a href="#" class="nav-link">deneme</a>
+      </li>
+
+      <li class="nav-item">
+        <a href="#" class="nav-link disabled">deneme</a>
+      </li>
+    </ul>
+
+    <hr>
+
+    <h4>Hap Pills Menü </h4>
+    <br>
+
+    
+    <ul class="nav nav-pills">
+
+      <li class="nav-item">
+        <a href="#" class="nav-link active">deneme</a>
+      </li>
+
+      <li class="nav-item">
+        <a href="#" class="nav-link ">deneme</a>
+      </li>
+
+      <li class="nav-item">
+        <a href="#" class="nav-link active">deneme</a>
+      </li>
+
+      <li class="nav-item">
+        <a href="#" class="nav-link disabled">Ydeneme</a>
+      </li>
+    </ul>
+
+    <hr>
+
+    <h4>Hap Pills Menü Sayfaya Yayma</h4>
+    <br>
+
+    
+    <ul class="nav nav-pills nav-fill">
+
+      <li class="nav-item">
+        <a href="#" class="nav-link active">deneme</a>
+      </li>
+
+      <li class="nav-item">
+        <a href="#" class="nav-link ">deneme</a>
+      </li>
+
+      <li class="nav-item">
+        <a href="#" class="nav-link active">deneme</a>
+      </li>
+
+      <li class="nav-item">
+        <a href="#" class="nav-link disabled">deneme</a>
+      </li>
+
+      <li class="nav-item">
+        <a href="#" class="nav-link disabled">deneme</a>
+      </li>
+    </ul>
+
+    <hr>
+
+    <h4>Eşit Dağılma</h4>
+    <br>
+
+    
+    <ul class="nav nav-pills nav-justified">
+
+      <li class="nav-item">
+        <a href="#" class="nav-link active">deneme</a>
+      </li>
+
+      <li class="nav-item">
+        <a href="#" class="nav-link ">deneme</a>
+      </li>
+
+      <li class="nav-item">
+        <a href="#" class="nav-link active">deneme</a>
+      </li>
+
+      <li class="nav-item">
+        <a href="#" class="nav-link disabled">deneme</a>
+      </li>
+
+      <li class="nav-item">
+        <a href="#" class="nav-link disabled">deneme</a>
+      </li>
+    </ul>
+
+    <hr>
+
+
+     <h4>Esnek Yapı</h4>
+    <br>
+
+    
+    <ul class="nav nav-pills nav-justified flex-column flex-sm-row">
+
+      <li class="nav-item">
+        <a href="#" class="nav-link active">Udemy</a>
+      </li>
+
+      <li class="nav-item">
+        <a href="#" class="nav-link ">deneme</a>
+      </li>
+
+      <li class="nav-item">
+        <a href="#" class="nav-link active">GÖkay kahraman</a>
+      </li>
+
+      <li class="nav-item">
+        <a href="#" class="nav-link disabled">deneme</a>
+      </li>
+
+      <li class="nav-item">
+        <a href="#" class="nav-link disabled">deneme</a>
+      </li>
+    </ul>
   </div>
 </template>
 
