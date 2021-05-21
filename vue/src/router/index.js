@@ -1,7 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 
-
 Vue.use(VueRouter)
 
 console.log()
@@ -9,7 +8,7 @@ console.log()
 const routes = [
   {
     path: '/',
-    name: 'Home',
+    name: 'Home'
   }
 ]
 
