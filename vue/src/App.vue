@@ -1,102 +1,156 @@
 <template>
   <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark ustalan">
       <div class="container">
-        <div class="logo mt-4">
-          <img class="navbar-brand" src="./img/logo.png" alt="Logo" />
-        </div>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#menuac"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+        <a href="#" class="navbar-brannd"><img src="./img/logo.png"/></a>
+
+        <form class="form-inline my-lg-0">
+          <label class="nav-eposta">E-posta veya Telefon</label>
+          <input type="text" class="form-control form-control-sm mr-2" />
+          <label class="nav-sifre">Şifre</label>
+          <input type="text" class="form-control form-control-sm mr-2" />
+          <input
+            type="button"
+            class="btn-sm text-white  giris-buton border-0"
+            value="Giriş Yap"
+            name=""
+          />
+          <label class="nav-reset">Hesabını mı unuttun?</label>
+        </form>
       </div>
     </nav>
 
-    <nav class="navbar navbar-expand-lg navbar-dark">
-      <div class="container">
-        <div class="collapse navbar-collapse navbar-expand-lg " id="menuac">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item"><a href="#" class="nav-link">ENGLISH</a></li>
-            <li class="nav-item">
-              <a href="#" class="nav-link active">SAYMAN</a>
-            </li>
-            <li class="nav-item"><a href="#" class="nav-link">SO</a></li>
-            <li class="nav-item">
-              <a href="#" class="nav-link">WHATSAPPTARTIŞMALARI</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link">WALLPAPER WEDNESDAY</a>
-            </li>
-            <li class="nav-item"><a href="#" class="nav-link">Z RAPORU</a></li>
-          </ul>
-          <span><i class="fa fa-search text-muted"></i></span>
-          <span><i class="fa fa-twitter text-muted"></i></span>
-          <span><i class="fa fa-facebook text-muted"></i></span>
-          <span
-            ><button class="btn btn-outline-light btn-sm text-white text-muted">
-              Follow
-            </button></span
-          >
-        </div>
-      </div>
-    </nav>
+    <div class="container-fluid gradian">
+      <div class="col-md-12 mt-4">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h5 style="color:#0E385F">
+                Facebook tanıdıklarınla iletişim kurmanı ve hayatında olup
+                bitenleri paylaşmanı sağlar.
+              </h5>
+              <img class="mt-2" src="./img/home.png" alt="facebook resim" />
+            </div>
 
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-8">
-          <div class="card bg-dark text-white ustalansol">
-            <img
-              class="usthaberboyut"
-              src="./img/140gif.gif"
-              alt="Haber Resmi"
-            />
-            <div class="card-img-overlay">
-              <a href="#"
-                ><h1 class="text-white">140journos’un haber formatları</h1></a
-              >
-              <div class="media">
-                <img
-                  class="rounded-circle align-self-center mr-2"
-                  src="./img/avatar.png"
-                  alt="Avatar"
-                />
-                <div class="media-body ">
-                  <span style="font-size:12px;"
-                    >140juournos <br />
-                    Mar 20</span
-                  >
+            <div class="col-md-6">
+              <h1>Hesap Aç</h1>
+              <h5>Ücretsizdir ve her zaman ücretsiz kalacaktır.</h5>
+
+              <form>
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <input
+                      type="email"
+                      class="form-control"
+                      placeholder="Adınız"
+                    />
+                  </div>
+                  <div class="form-group col-md-6">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Soyadınız"
+                    />
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Cep Telefonu Numarası veya E-Posta"
+                  />
+                </div>
+
+                <div class="form-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Yeni Şifre"
+                  />
+                </div>
+              </form>
+
+              <h6 class="mt-2">Doğum Tarihi</h6>
+
+              <div class="form-row">
+                <select class="form-control dtarih">
+                  <option selected>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                </select>
+
+                <select class="form-control dtarih">
+                  <option selected>Oca</option>
+                  <option>Şub</option>
+                  <option>Mar</option>
+                  <option>Nis</option>
+                  <option>May</option>
+                </select>
+
+                <select class="form-control dtarih">
+                  <option selected>2017</option>
+                  <option>2016</option>
+                  <option>2015</option>
+                  <option>2014</option>
+                  <option>2013</option>
+                </select>
+
+                <div class="col-md-4 ml-2">
+                  <p style="font-size:10px;">
+                    Doğum tarihimi vermem neden gerekiyor?
+                  </p>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
 
-        <div class="col-md-4">
-          <div class="card bg-dark text-white ustalansag">
-            <img
-              class="usthaberboyut"
-              src="./img/ustsag.png"
-              alt="Haber Resmi"
-            />
-            <div class="card-img-overlay">
-              <a href="#"
-                ><h1 class="text-white">140journos’un haber formatları</h1></a
-              >
-              <div class="media">
-                <img
-                  class="rounded-circle align-self-center mr-2"
-                  src="./img/avatar.png"
-                  alt="Avatar"
-                />
-                <div class="media-body ">
-                  <span style="font-size:12px;"
-                    >140juournos <br />
-                    Mar 20</span
+              <div class="form-row mt-2">
+                <div class="form-check form-check-inline">
+                  <label>
+                    <input
+                      class="form-check-label form-check-input"
+                      type="radio"
+                    />
+                    Kadın
+                  </label>
+                </div>
+
+                <div class="form-check form-check-inline">
+                  <label>
+                    <input
+                      class="form-check-label form-check-input"
+                      type="radio"
+                    />
+                    Erkek
+                  </label>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-9">
+                  <p style="font-size: 10px;">
+                    Hesap Aç düğmesine tıklayarak, Çerez Kullanımı dahil Veri
+                    İlkemizi okuduğunu ve Koşullarımızı kabul etmiş olursun.
+                    Facebook'tan SMS Bildirimleri alabilir ve bu bildirimleri
+                    istediğin zaman durdurabilirsin
+                  </p>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-12">
+                  <button
+                    style="background-color: #639B4F; font-size:18px; color:white;"
+                    class="btn col-md-4 my-4"
                   >
+                    Hesap Aç
+                  </button>
+                </div>
+                <div class="col-md-12">
+                  <p style="font-size:11px;">
+                    Ünlü biri, müzik grubu veya şirket için Sayfa oluştur.
+                  </p>
                 </div>
               </div>
             </div>
@@ -104,381 +158,120 @@
         </div>
       </div>
     </div>
-
     <div class="container">
       <div class="row">
-        <div class="col-md-12 my-4">
-          <span>whatsapp tartışmaları salı-çarşamba-perşembe akşamları</span>
-          <hr />
-
-          <div class="card border-0">
-            <div class="row">
-              <div class="col-md-7">
-                <img src="./img/haber1.jpeg" class="w-100" alt="Haber Resmi" />
-              </div>
-
-              <div class="col-md-5 px-3">
-                <div class="card-body">
-                  <a style="text-decoration: none; " href="#"
-                    ><h1 style="font-size: 30px;" class="card-title text-dark">
-                      140journos whatsapp tartışmaları takvimi 140journos
-                      whatsapp tartışmaları takvimi
-                    </h1></a
-                  >
-                  <p class="card-text">
-                    140journos’un whatsapp tartışma grupları artık haftaiçi her
-                    akşam saat 8'de! her gün yeni bir konu ve konuklar ile
-                    interaktif tartışmalarım…
-                  </p>
-
-                  <div class="media">
-                    <img
-                      class="rounded-circle align-self-center mr-2"
-                      src="./img/avatar.png"
-                      alt="Avatar"
-                    />
-                    <div class="media-body ">
-                      <span style="font-size:12px;"
-                        >140juournos <br />
-                        Mar 20</span
-                      >
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+        <div class="col-md-7">
+          <nav>
+            <ul class="nav navbar altmenuler">
+              <li>Türkçe</li>
+              <li>Kurdî</li>
+              <li>العربية</li>
+              <li>English</li>
+              <li>Deutsch</li>
+              <li>Français</li>
+              <li>Nederlands</li>
+              <li>Español</li>
+              <li>Português</li>
+            </ul>
+          </nav>
         </div>
       </div>
-    </div>
 
-    <div class="container-fluid">
       <div class="row">
-        <div class="col-md-8">
-          <div class="card bg-dark text-white ustalansol">
-            <img
-              class="usthaberboyut"
-              src="./img/altsol1.png"
-              alt="Haber Resmi"
-            />
-            <div class="card-img-overlay">
-              <a href="#"
-                ><h1 class="text-white">
-                  140journos videolarının yeni bölümleri en önce youtube’da
-                </h1></a
-              >
-              <div class="media">
-                <img
-                  class="rounded-circle align-self-center mr-2"
-                  src="./img/avatar.png"
-                  alt="Avatar"
-                />
-                <div class="media-body ">
-                  <span style="font-size:12px;"
-                    >140juournos <br />
-                    Mar 20</span
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
+        <div class="col-md-1">
+          <nav>
+            <ul class="nav navbar altmenuler">
+              <li>Türkçe</li>
+              <li>Kurdî</li>
+              <li>العربية</li>
+            </ul>
+          </nav>
         </div>
-
-        <div class="col-md-4">
-          <div class="card bg-dark text-white ustalansag">
-            <img
-              class="usthaberboyut"
-              src="./img/altsag1.png"
-              alt="Haber Resmi"
-            />
-            <div class="card-img-overlay">
-              <a href="#"
-                ><h1 class="text-white">
-                  140journos videolarındaki müzikler spotify’da
-                </h1></a
-              >
-              <div class="media">
-                <img
-                  class="rounded-circle align-self-center mr-2"
-                  src="./img/avatar.png"
-                  alt="Avatar"
-                />
-                <div class="media-body ">
-                  <span style="font-size:12px;"
-                    >140juournos <br />
-                    Mar 20</span
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
+        <div class="col-md-1">
+          <nav>
+            <ul class="nav navbar altmenuler">
+              <li>Türkçe</li>
+              <li>Kurdî</li>
+              <li>العربية</li>
+            </ul>
+          </nav>
         </div>
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 my-4">
-          <span>140journos SO, üretim süreçlerini açıyor</span>
-          <hr />
-
-          <div class="card border-0">
-            <div class="row">
-              <div class="col-md-7">
-                <img src="./img/haber3.png" class="w-100" alt="Haber Resmi" />
-              </div>
-
-              <div class="col-md-5 px-3">
-                <div class="card-body">
-                  <a style="text-decoration: none; " href="#"
-                    ><h1 style="font-size: 30px;" class="card-title text-dark">
-                      yayın ve üretim formatı: ongoing [editörden]
-                    </h1></a
-                  >
-                  <p class="card-text">
-                    140journos SO, uzun soluklu görsel hikaye üretim süreçlerini
-                    içerikleştiren ve izleyiciyi hikayeye dahil eden
-                    deneyimlerden oluşan yayın…
-                  </p>
-
-                  <div class="media">
-                    <img
-                      class="rounded-circle align-self-center mr-2"
-                      src="./img/avatar.png"
-                      alt="Avatar"
-                    />
-                    <div class="media-body ">
-                      <span style="font-size:12px;"
-                        >140juournos <br />
-                        Mar 20</span
-                      >
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="card border-0 mt-4">
-            <div class="row">
-              <div class="col-md-7">
-                <img src="./img/haber4.png" class="w-100" alt="Haber Resmi" />
-              </div>
-
-              <div class="col-md-5 px-3">
-                <div class="card-body">
-                  <a style="text-decoration: none; " href="#"
-                    ><h1 style="font-size: 30px;" class="card-title text-dark">
-                      çay çay
-                    </h1></a
-                  >
-                  <p class="card-text">
-                    çay çay türkiye, açık arayla dünyada en yüksek çay
-                    tüketimine sahip ülke. 1 yılda kişi başı 3,5 kilo çay
-                    tüketiyoruz, dünya sahnesinde çayla anıl…
-                  </p>
-
-                  <div class="media">
-                    <img
-                      class="rounded-circle align-self-center mr-2"
-                      src="./img/avatar.png"
-                      alt="Avatar"
-                    />
-                    <div class="media-body ">
-                      <span style="font-size:12px;"
-                        >140juournos <br />
-                        Mar 20</span
-                      >
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="card border-0 mt-4">
-            <div class="row">
-              <div class="col-md-7">
-                <img src="./img/haber5.jpeg" class="w-100" alt="Haber Resmi" />
-              </div>
-
-              <div class="col-md-5 px-3">
-                <div class="card-body">
-                  <a style="text-decoration: none; " href="#"
-                    ><h1 style="font-size: 30px;" class="card-title text-dark">
-                      recep “trump” erdoğan recep “trump” erdoğan
-                    </h1></a
-                  >
-                  <p class="card-text">
-                    cumhurbaşkanı recep tayyip erdoğan ve amerika birleşik
-                    devletleri’nin yeni başkanı donald trump’ın bazı söylemleri
-                    arasında benzerlikler…
-                  </p>
-
-                  <div class="media">
-                    <img
-                      class="rounded-circle align-self-center mr-2"
-                      src="./img/avatar.png"
-                      alt="Avatar"
-                    />
-                    <div class="media-body ">
-                      <span style="font-size:12px;"
-                        >140juournos <br />
-                        Mar 20</span
-                      >
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+        <div class="col-md-1">
+          <nav>
+            <ul class="nav navbar altmenuler">
+              <li>Türkçe</li>
+              <li>Kurdî</li>
+              <li>العربية</li>
+            </ul>
+          </nav>
+        </div>
+        <div class="col-md-1">
+          <nav>
+            <ul class="nav navbar altmenuler">
+              <li>Türkçe</li>
+              <li>Kurdî</li>
+              <li>العربية</li>
+            </ul>
+          </nav>
+        </div>
+        <div class="col-md-1">
+          <nav>
+            <ul class="nav navbar altmenuler">
+              <li>Türkçe</li>
+              <li>Kurdî</li>
+              <li>العربية</li>
+            </ul>
+          </nav>
+        </div>
+        <div class="col-md-1">
+          <nav>
+            <ul class="nav navbar altmenuler">
+              <li>Türkçe</li>
+              <li>Kurdî</li>
+              <li>العربية</li>
+            </ul>
+          </nav>
+        </div>
+        <div class="col-md-1">
+          <nav>
+            <ul class="nav navbar altmenuler">
+              <li>Türkçe</li>
+              <li>Kurdî</li>
+              <li>العربية</li>
+            </ul>
+          </nav>
+        </div>
+        <div class="col-md-1">
+          <nav>
+            <ul class="nav navbar altmenuler">
+              <li>Türkçe</li>
+              <li>Kurdî</li>
+              <li>العربية</li>
+            </ul>
+          </nav>
+        </div>
+        <div class="col-md-1">
+          <nav>
+            <ul class="nav navbar altmenuler">
+              <li>Türkçe</li>
+              <li>Kurdî</li>
+              <li>العربية</li>
+            </ul>
+          </nav>
+        </div>
+        <div class="col-md-1">
+          <nav>
+            <ul class="nav navbar altmenuler">
+              <li>Türkçe</li>
+              <li>Kurdî</li>
+              <li>العربية</li>
+            </ul>
+          </nav>
         </div>
       </div>
-    </div>
 
-    <div id="container-fluid">
-      <span>kuzey ırak'taki referandum</span>
-      <hr />
-      <div class="card bg-dark text-white ustalansol">
-        <img src="./img/haberyatay.png" alt="Haber Resmi" />
-        <div class="card-img-overlay">
-          <a href="#"
-            ><h1 class="text-white">140journos’un haber formatları</h1></a
-          >
-          <div class="media">
-            <img
-              class="rounded-circle align-self-center mr-2"
-              src="./img/avatar.png"
-              alt="Avatar"
-            />
-            <div class="media-body ">
-              <span style="font-size:12px;"
-                >140juournos <br />
-                Mar 20</span
-              >
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 my-4">
-          <span>140journos SO, üretim süreçlerini açıyor</span>
-          <hr />
-
-          <div class="card border-0">
-            <div class="row">
-              <div class="col-md-7">
-                <img src="./img/haber3.png" class="w-100" alt="Haber Resmi" />
-              </div>
-
-              <div class="col-md-5 px-3">
-                <div class="card-body">
-                  <a style="text-decoration: none; " href="#"
-                    ><h1 style="font-size: 30px;" class="card-title text-dark">
-                      yayın ve üretim formatı: ongoing [editörden]
-                    </h1></a
-                  >
-                  <p class="card-text">
-                    140journos SO, uzun soluklu görsel hikaye üretim süreçlerini
-                    içerikleştiren ve izleyiciyi hikayeye dahil eden
-                    deneyimlerden oluşan yayın…
-                  </p>
-
-                  <div class="media">
-                    <img
-                      class="rounded-circle align-self-center mr-2"
-                      src="./img/avatar.png"
-                      alt="Avatar"
-                    />
-                    <div class="media-body ">
-                      <span style="font-size:12px;"
-                        >140juournos <br />
-                        Mar 20</span
-                      >
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="card border-0 mt-4">
-            <div class="row">
-              <div class="col-md-7">
-                <img src="./img/haber4.png" class="w-100" alt="Haber Resmi" />
-              </div>
-
-              <div class="col-md-5 px-3">
-                <div class="card-body">
-                  <a style="text-decoration: none; " href="#"
-                    ><h1 style="font-size: 30px;" class="card-title text-dark">
-                      çay çay
-                    </h1></a
-                  >
-                  <p class="card-text">
-                    çay çay türkiye, açık arayla dünyada en yüksek çay
-                    tüketimine sahip ülke. 1 yılda kişi başı 3,5 kilo çay
-                    tüketiyoruz, dünya sahnesinde çayla anıl…
-                  </p>
-
-                  <div class="media">
-                    <img
-                      class="rounded-circle align-self-center mr-2"
-                      src="./img/avatar.png"
-                      alt="Avatar"
-                    />
-                    <div class="media-body ">
-                      <span style="font-size:12px;"
-                        >140juournos <br />
-                        Mar 20</span
-                      >
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="card border-0 mt-4">
-            <div class="row">
-              <div class="col-md-7">
-                <img src="./img/haber5.jpeg" class="w-100" alt="Haber Resmi" />
-              </div>
-
-              <div class="col-md-5 px-3">
-                <div class="card-body">
-                  <a style="text-decoration: none; " href="#"
-                    ><h1 style="font-size: 30px;" class="card-title text-dark">
-                      recep “trump” erdoğan recep “trump” erdoğan
-                    </h1></a
-                  >
-                  <p class="card-text">
-                    cumhurbaşkanı recep tayyip erdoğan ve amerika birleşik
-                    devletleri’nin yeni başkanı donald trump’ın bazı söylemleri
-                    arasında benzerlikler…
-                  </p>
-
-                  <div class="media">
-                    <img
-                      class="rounded-circle align-self-center mr-2"
-                      src="./img/avatar.png"
-                      alt="Avatar"
-                    />
-                    <div class="media-body ">
-                      <span style="font-size:12px;"
-                        >140juournos <br />
-                        Mar 20</span
-                      >
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+      <div class="col-md-2">
+        <p class="mt-4" style="font-size:10px;">Facebook © 2017</p>
       </div>
     </div>
   </div>
@@ -487,52 +280,60 @@
 <script></script>
 
 <style scoped>
-nav {
-  background-color: #190f6e;
-  z-index: 999;
+.ustalan {
+  background-color: #405d9b !important;
+  min-height: 80px !important;
 }
 
-.navbar .logo {
-  min-height: 150px;
+nav input {
+  padding: 0px !important;
+  border-radius: 0px !important;
 }
 
-.fa {
+.giris-buton {
+  font-size: 13px !important;
+  font-family: arial !important;
+  background-color: #405d9b !important;
+}
+
+.nav-eposta {
+  position: absolute;
+  margin-top: -25px !important;
+  font-size: 13px !important;
   color: white;
 }
 
-nav span {
-  margin-right: 20px;
-}
-
-nav .buton {
-  background-color: #190f6e;
-}
-
-.card-img-overlay {
+.nav-sifre {
   position: absolute;
-  left: 60px !important;
-  top: 225px !important;
+  margin-top: -25px !important;
+  margin-left: 163px !important;
+  font-size: 13px !important;
+  color: white;
 }
 
-.card-img-overlay h1 {
-  font-size: 30px;
+.nav-reset {
+  position: absolute;
+  margin-top: 20px !important;
+  margin-left: 163px !important;
+  font-size: 13px !important;
+  color: #9cb4d0;
 }
 
-.ustalansol {
-  margin-top: -5px !important;
+.gradian {
+  background: linear-gradient(white, #d4d9e8);
+  background: -webkit-linear-gradient(white, #d4d9e8);
+  background: -moz-linear-gradient(white, #d4d9e8);
+  background: -o-linear-gradient(white, #d4d9e8);
+}
+
+.dtarih {
   padding: 0px !important;
-  z-index: -999;
+  width: 60px !important;
+  border-radius: 0px !important;
+  height: 35px !important;
 }
 
-.ustalansag {
-  margin-top: -5px !important;
-  margin-left: -30px !important;
-  padding: 0px !important;
-  z-index: -999px;
-}
-
-.usthaberboyut {
-  height: 370px !important;
-  margin-top: -5px !important;
+.altmenuler {
+  font-size: 13px;
 }
 </style>
