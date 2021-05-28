@@ -259,15 +259,6 @@
             </ul>
           </nav>
         </div>
-        <div class="col-md-1">
-          <nav>
-            <ul class="nav navbar altmenuler">
-              <li>Türkçe</li>
-              <li>Kurdî</li>
-              <li>العربية</li>
-            </ul>
-          </nav>
-        </div>
       </div>
 
       <div class="col-md-2">
