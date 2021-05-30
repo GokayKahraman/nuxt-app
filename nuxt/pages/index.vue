@@ -1,15 +1,20 @@
 <template>
-  <div >
-    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet nobis blanditiis asperiores quas, officia omnis itaque necessitatibus voluptatem. Minus vel laboriosam quod consequuntur architecto doloribus magnam nemo, ex aut ut.
+  <div>
+    {{ param }}
   </div>
 </template>
 
 <script>
 const axios = require("axios")
 export default {
+  data() {
+    return {
+      param: null,
+    }
+  },
     mounted: function() {
-    axios.get("https://animechan.vercel.app/api/quotes")
-      
+    axios.get("/api/echo/gökay")
+      .then(response => this.param = response.data)
     },
   
 } 
